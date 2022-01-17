@@ -1,8 +1,9 @@
 const Header = () => {
     return ( 
-        <>
-        <h1>hei</h1>
-        </>
+            <section className="header">
+                <h1 className="header_title">Food Menu</h1>
+                <div className="header_underline"></div>
+            </section>
      );
 }
  

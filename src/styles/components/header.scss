@@ -1,0 +1,17 @@
+@use '../utils/' as *;
+
+.header {
+    margin: 2rem 0 1rem 0;
+    
+    &_title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    &_underline {
+        height: rem(7px);
+        width: rem(180px);
+        background-color: var(--accent-color);
+        border-radius: 25px;
+    }
+}

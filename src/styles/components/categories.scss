@@ -1,0 +1,16 @@
+.categories {
+    display: flex;
+    max-width: 100%;
+    
+    &_title {
+        font-size: 1rem;
+    }
+
+    &_btn {
+        background-color: transparent;
+        border: none;
+        color: var(--accent-color);
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+}
