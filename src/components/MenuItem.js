@@ -5,7 +5,7 @@ const MenuItem = ({ item }) => {
             <img className="item_img" src={ item.img } alt={ item.title } />
             <p className="item_category">Category: { item.category }</p>
             <p className="item_description">{ item.desc }</p>
-            <p className="item_price">Price: { item.price }</p>
+            <p className="item_price">Price: <span>{ item.price } $</span></p>
         </div>
      );
 }
