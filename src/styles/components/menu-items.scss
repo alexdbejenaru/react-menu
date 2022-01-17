@@ -26,12 +26,17 @@
 
             &_title {
                 height: 2rem;
-                line-height: 1.2rem;
-                font-size: 1.1rem;
-                margin-bottom: .5rem;
+                line-height: 1.5rem;
+                padding-bottom: .8rem;
+                font-size: 1.3rem;
+                margin-bottom: 1rem;
                 text-align: center;
             }
 
+            &_category {
+                margin-bottom: .5rem;
+                font-size: .8rem;
+            }
             &_img {
                 width: rem(250px);
                 height: rem(150px);
@@ -40,7 +45,17 @@
                 background-repeat: no-repeat;
                 border: rem(3px) var(--accent-color) solid;
                 border-radius: rem(5px);
-                margin-bottom: 1rem;
+                margin-bottom: .1rem;
+            }
+
+            &_description {
+                height: 100%;
+                font-size: .8rem;
+            }
+            
+            &_price {
+                align-self: flex-end;
+                justify-self: flex-end;
             }
         }
     }

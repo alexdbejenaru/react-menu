@@ -4,7 +4,7 @@ const Categories = ({ filterItems, categoryItems }) => {
             <h2 className="categories_title">Filter by:</h2>
             {categoryItems.map((category, index) => (
                 <button type="button" key={ index } onClick={() => filterItems(category)} className="categories_btn">
-                    { category }
+                    { category.charAt(0).toUpperCase() + category.slice(1) }
                 </button>
             ))}
         </section>
