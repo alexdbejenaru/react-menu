@@ -28,7 +28,7 @@ const menu = [
         title: 'French Toast',
         category: 'breakfast',
         price: 15.97,
-        img: 'https://tastesbetterfromscratch.com/wp-content/uploads/2018/04/French-Toast-4.jpg',
+        img: 'https://www.chilitochoc.com/wp-content/uploads/2020/07/French-Toast-story.jpg',
         desc: 'Nulla dui sapien, ornare hendrerit ultricies id, iaculis a lorem. Vestibulum ante ipsum primis in faucibus orc'
     },
     {
