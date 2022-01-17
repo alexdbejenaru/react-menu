@@ -6,7 +6,8 @@
   
   &_container {
     display: flex;
-    justify-content: center;
+    align-items: center;
     max-width: 1366px;
+    flex-direction: column;
   }
 }
