@@ -15,6 +15,7 @@ function App() {
       setItems(data);
       return;
     }
+    setCategoryItems(categoryItems);
 
     const newItems = data.filter(item => item.category === category)
     setItems(newItems);
