@@ -1,9 +1,12 @@
-const Categories = ({ filterItems, item }) => {
+const Categories = ({ filterItems, categoryItems }) => {
     return ( 
         <section className="categories">
             <h2 className="categories_title">Filter by:</h2>
-            <button onClick={() => filterItems('all')}className="categories_btn">All</button>
-            <button onClick={() => filterItems('dinner')}className="categories_btn">Breakfast</button>
+            {categoryItems.map((category, index) => (
+                <button type="button" key={ index } onClick={() => filterItems(category)} className="categories_btn">
+                    { category }
+                </button>
+            ))}
         </section>
      );
 }
