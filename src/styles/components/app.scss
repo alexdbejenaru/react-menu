@@ -1,0 +1,12 @@
+@use '../utils' as *;
+
+.app {
+  min-height: 100vh;
+  background-color: var(--primary-bg-color);
+  
+  &_container {
+    display: flex;
+    justify-content: center;
+    max-width: 1366px;
+  }
+}
